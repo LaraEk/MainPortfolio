@@ -1,2 +1,1 @@
-# Bootstrap-Portfolio
-this one's my bootstrap-built portfolio
+This is my Main Portfolio.  It contains links to the projects I shall complete, and will be updated and improved periodically throughout the course.
