@@ -1,1 +1,3 @@
-This is my Main Portfolio.  It contains links to the projects I shall complete, and will be updated and improved periodically throughout the course.
+Main Portfolio
+
+This is Lara Ek's main portfolio page, which shall be updated with projects as projects are completed.  Bootstrap-Portfolio will be retained as a historical document to show my progress.
