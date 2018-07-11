@@ -16,22 +16,23 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <!-- End Boostrap rel links -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Inknut Antiqua'>
   </head>
 
   <body>
 
     <!-- Below is just the Navbar -->
-    <nav class="navbar navbar-default navbar-fixed-top" id="thisisnavbar">
+    <nav class="navbar navbar-default navbar-fixed-top" id="thisisnavbar" >
         <div class="container-fluid">
           <div class="navbar-header">
-            <a class="navbar-brand" href="index.html" >Lara Ek</a>
+            <a class="navbar-brand" href="index.html" style="color:rgb(255, 253, 233)">Lara Ek</a>
           </div>
-          <ul class="nav navbar-nav" style="float: right; margin: 0 100px 0 0">
-            <li class="active"><a href="index.html">About Me</a></li>
-            <li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Explore
+          <ul class="nav navbar-nav" style="float: right" >
+            <li class="dropdown" >
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#" style="color:rgb(255, 253, 233)">Explore
               <span class="caret"></span></a>
               <ul class="dropdown-menu">
+                  <li><a href="index.html">Home</a></li>
                 <li><a href="portfolio.html">Portfolio</a></li>
                 <li><a href="writing.html">Writing</a></li>
                 <li><a href="contact.html">Contact</a></li>
@@ -42,17 +43,16 @@
       </nav>
     <!-- Here ends all Navbar stuff -->
 
-    <!-- Below is all the maincontent stuff -->
-      <div class="container" id="maincontent">
-        <center>
-          <img src="assets/images/eevee.png" style="height:250px; width: 250px"/>
-          <img src="assets/images/hobbitart.png" style="height:250px; width: 250px"/>
-          <br/>
-          <img src="assets/images/tolkienmonograminring.jpg" style="height:250px; width: 250px"/>
-          <img src="assets/images/youdidverywell.png" style="height:250px; width: 250px"/>
-        </center>
+    <div id="centerbox">  
+      <div class="wrapper">
+          <div class="box a"><img src="assets/images/eevee.png" style="height:250px; width: 250px"/></div>
+          <div class="box b"><img src="assets/images/hobbitart.png" style="height:250px; width: 250px"/></div>
+          <div class="box c"><img src="assets/images/tolkienmonograminring.jpg" style="height:250px; width: 250px"/></div>
+          <div class="box d"><img src="assets/images/youdidverywell.png" style="height:250px; width: 250px"/></div>
+        </div>
       </div>
-    <!-- Here ends maincontent stuff -->
+
+
 
 <footer>
   Copyright © Lara Ek 

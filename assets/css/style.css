@@ -20,13 +20,42 @@ p {
   border-bottom-style: solid;
   border-color: #256d74;
   border-width: 0px 0px 2px 0px;
+  font-family: 'Inknut Antiqua';
   color: #fff; /* ----------------------------- FIX THIS LATER!!!*/
 }
 
 
+#centerbox {
+  margin-top:5%;
+  margin-left:auto;
+  margin-right:auto;
+  width: 40%;
+  padding: 10px;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 300px 300px;
+  grid-gap: 10px;
+  background-color: #fff;
+  color: #18494d;
+}
+
+.box {
+  background-color: #18494d;
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%;
+}
+
+
+/*
 #maincontent {
+  font-family: 'Inknut Antiqua';
+  text-align: center;
   background-color:#ffffff;
-  margin: 7% 10% 0 10%; 
+  margin: 7% 20% 7% 20%; 
   color: #777777;
   padding: 0 15px 15px 15px;
   border-style: solid;
@@ -39,6 +68,10 @@ p {
 body {
   background-image: url("paintybckgd.jpg");
   background-size: 100%;
+}*/
+
+body {
+  background-color:rgb(255, 253, 233)
 }
 /*done with stuff that fits all pages*/
 
