@@ -15,6 +15,14 @@ p {
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
+#thisisnavbar {
+  background-color: #18494d;
+  border-bottom-style: solid;
+  border-color: #256d74;
+  border-width: 0px 0px 2px 0px;
+  color: #fff; /* ----------------------------- FIX THIS LATER!!!*/
+}
+
 
 #maincontent {
   background-color:#ffffff;
@@ -29,7 +37,8 @@ p {
 }
 
 body {
-  background-image: url("seigaiha.png");
+  background-image: url("paintybckgd.jpg");
+  background-size: 100%;
 }
 /*done with stuff that fits all pages*/
 
@@ -86,9 +95,9 @@ footer {
   color: #fff;
   bottom: 0;
   left: 0;
-  background: #666666;
+  background: #18494d;
   border-top-style: solid;
-  border-color: #4aaaa5;
+  border-color: #256d74;
   border-width: 2px 0px 0px 0px;
   position: fixed;
   width: 100%;
