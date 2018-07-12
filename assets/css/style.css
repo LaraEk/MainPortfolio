@@ -3,6 +3,10 @@ img {
   float: left;
 }
 
+img:hover {
+  opacity: .5;
+}
+
 h1 {
   font-family: 'Georgia', Times, Times New Roman, serif;
   color: #4aaaa5;
@@ -10,18 +14,18 @@ h1 {
 
 
 p {
-  color: #777777;
+  color: #18494d;
   float: left;
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 #thisisnavbar {
-  background-color: #18494d;
-  border-bottom-style: solid;
+  background-color:rgb(255, 253, 233);
+/*  border-bottom-style: solid;
   border-color: #256d74;
-  border-width: 0px 0px 2px 0px;
+  border-width: 0px 0px 2px 0px; */
   font-family: 'Inknut Antiqua';
-  color: #fff; /* ----------------------------- FIX THIS LATER!!!*/
+  color: #18494d; /* ----------------------------- FIX THIS LATER!!!*/
 }
 
 
@@ -73,6 +77,13 @@ body {
 body {
   background-color:rgb(255, 253, 233)
 }
+
+
+
+
+
+
+
 /*done with stuff that fits all pages*/
 
 /*stuff that is only on the contact form page*/
@@ -125,13 +136,13 @@ form {
 /*this is for just the footer*/
 footer {
   height: 40px;
-  color: #fff;
+  color: #18494d;
   bottom: 0;
   left: 0;
-  background: #18494d;
-  border-top-style: solid;
+  background: rgb(255, 253, 233);
+/*  border-top-style: solid;
   border-color: #256d74;
-  border-width: 2px 0px 0px 0px;
+  border-width: 2px 0px 0px 0px; */
   position: fixed;
   width: 100%;
   text-align: center;
