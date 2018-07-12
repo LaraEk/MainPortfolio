@@ -2,63 +2,27 @@
 /* ------- stuff that fits all pages ------- */
 /* ----------------------------------------- */
 
+p {
+  font-family: 'Inknut Antiqua';
+  color: #18494d;
+}
 
 h1 {
-  font-family: 'Georgia', Times, Times New Roman, serif;
-  color: #4aaaa5;
+  font-family: 'Inknut Antiqua';
+  color: #18494d;
 }
 
 #thisisnavbar {
   background:transparent;
   font-family: 'Inknut Antiqua';
   color: #634731; 
+  font-size: 120%;
 }
 
-.wrapper {
-  display: grid;
-  grid-template-columns: auto auto;
-  grid-gap: 10px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.navbar-brand {
+  color:#18494d; 
+  font-size: 120%;
 }
-
-/*.mainpagetitles {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: rgb(255,253,233);
-  text-align: center;
-}*/
-
-.box {
-  background-color: rgb(126, 106, 83);
-  color: #634731;
-  border-radius: 5px;
-  padding: 50px;
-  text-align: center;
-  font-weight: bold;
-  font-size: 150%;
-  background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAWklEQVQoU2O8uHHCf33/AkYGKKjLDP4PYjZNXwsXA6mBc0CSIEUwBchskByKScimoGsEK0TWDbIGJAZzDkyOEV0RTAGy20FqiFdItNXIwULQM9gUYwQPsQEOAEJaap8RkkkAAAAAAElFTkSuQmCC)
-}
-
-body {
-  background-image: url("yoshikawasmall.jpg");
-  background-size: 100%;
-  font-family: 'Inknut Antiqua';
-
-}
-
-.mainpagepic {
-  opacity: .5;
-}
-
-.mainpagepic:hover {
-  opacity: 1;
-}
-
 
 A:link { 
   color: #634731; 
@@ -78,9 +42,76 @@ A:hover {
 /* --------------------------------------------------- */
 
 
+/* ----------------------------------------- */
+/* ------- stuff that fits main page ------- */
+/* ----------------------------------------- */
+
+.mainpagewrapper {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.mainpagebox {
+  background-color: rgb(126, 106, 83);
+  color: #634731;
+  border-radius: 5px;
+  padding: 50px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 150%;
+  background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAWklEQVQoU2O8uHHCf33/AkYGKKjLDP4PYjZNXwsXA6mBc0CSIEUwBchskByKScimoGsEK0TWDbIGJAZzDkyOEV0RTAGy20FqiFdItNXIwULQM9gUYwQPsQEOAEJaap8RkkkAAAAAAElFTkSuQmCC)
+}
+
+#mainpagebody {
+  background-image: url("yoshikawasmall.jpg");
+  background-size: 100%;
+  font-family: 'Inknut Antiqua';
+}
+
+.mainpagepic {
+  opacity: .5;
+}
+
+.mainpagepic:hover {
+  opacity: 1;
+}
+
+/* --------------------------------------------------- */
+/* ------- done with stuff that fits main page ------- */
+/* --------------------------------------------------- */
+
+/* ---------------------------------------------- */
+/* ------- stuff that fits portfolio page ------- */
+/* ---------------------------------------------- */
+
+#portfoliopagebody {
+  background-image: url("asamtensightssmallfade.jpg");
+  background-size: 100%;
+  font-family: 'Inknut Antiqua';
+}
+
+#portfoliopagecontainer {
+  margin: 10%;
+}
+
+.portpic {
+  padding: 20px;
+  float: left;
+}
+
+#nextimages {
+  float: left;
+}
 
 
-
+/* -------------------------------------------------------- */
+/* ------- done with stuff that fits portfolio page ------- */
+/* -------------------------------------------------------- */
 
 /*stuff that is only on the contact form page*/
 form {
@@ -118,16 +149,7 @@ form {
 }
 /*done with contact form page stuff*/
 
-/*portfolio page stuff only*/
-.portpic {
-  padding: 20px;
-  float: left;
-}
 
-#nextimages {
-  float: left;
-}
-/*done with porfolio page stuff*/
 
 /*this is for just the footer*/
 footer {
