@@ -2,50 +2,46 @@
 /* ------- stuff that fits all pages ------- */
 /* ----------------------------------------- */
 
-img {
-  float: left;
-}
-
-img:hover {
-  opacity: .5;
-}
 
 h1 {
   font-family: 'Georgia', Times, Times New Roman, serif;
   color: #4aaaa5;
 }
 
-p {
-  color: #18494d;
-  float: left;
-  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-}
-
 #thisisnavbar {
   background:transparent;
   font-family: 'Inknut Antiqua';
-  color: #18494d;
+  color: #634731; 
 }
-
 
 .wrapper {
   display: grid;
-  grid-template-columns: 200px 200px;
+  grid-template-columns: auto auto;
   grid-gap: 10px;
-  color: #18494d;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
+/*.mainpagetitles {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(255,253,233);
+  text-align: center;
+}*/
+
 .box {
   background-color: rgb(126, 106, 83);
-  color: rgb(255, 253, 233);
+  color: #634731;
   border-radius: 5px;
   padding: 50px;
   text-align: center;
-
+  font-weight: bold;
+  font-size: 150%;
+  background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAWklEQVQoU2O8uHHCf33/AkYGKKjLDP4PYjZNXwsXA6mBc0CSIEUwBchskByKScimoGsEK0TWDbIGJAZzDkyOEV0RTAGy20FqiFdItNXIwULQM9gUYwQPsQEOAEJaap8RkkkAAAAAAElFTkSuQmCC)
 }
 
 body {
@@ -53,6 +49,28 @@ body {
   background-size: 100%;
   font-family: 'Inknut Antiqua';
 
+}
+
+.mainpagepic {
+  opacity: .5;
+}
+
+.mainpagepic:hover {
+  opacity: 1;
+}
+
+
+A:link { 
+  color: #634731; 
+} 
+A:visited { 
+  color: #18494d;
+} 
+A:active { 
+  color: #d6b58a;  
+} 
+A:hover { 
+  color: #24656b;
 }
 
 /* --------------------------------------------------- */
