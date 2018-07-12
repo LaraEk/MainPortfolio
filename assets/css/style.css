@@ -1,4 +1,7 @@
-/*stuff that fits all pages*/
+/* ----------------------------------------- */
+/* ------- stuff that fits all pages ------- */
+/* ----------------------------------------- */
+
 img {
   float: left;
 }
@@ -12,7 +15,6 @@ h1 {
   color: #4aaaa5;
 }
 
-
 p {
   color: #18494d;
   float: left;
@@ -20,71 +22,47 @@ p {
 }
 
 #thisisnavbar {
-  background-color:rgb(255, 253, 233);
-/*  border-bottom-style: solid;
-  border-color: #256d74;
-  border-width: 0px 0px 2px 0px; */
+  background:transparent;
   font-family: 'Inknut Antiqua';
-  color: #18494d; /* ----------------------------- FIX THIS LATER!!!*/
-}
-
-
-#centerbox {
-  margin-top:5%;
-  margin-left:auto;
-  margin-right:auto;
-  width: 40%;
-  padding: 10px;
-}
-
-.wrapper {
-  display: grid;
-  grid-template-columns: 300px 300px;
-  grid-gap: 10px;
-  background-color: #fff;
   color: #18494d;
 }
 
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 200px 200px;
+  grid-gap: 10px;
+  color: #18494d;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .box {
-  background-color: #18494d;
-  color: #fff;
+  background-color: rgb(126, 106, 83);
+  color: rgb(255, 253, 233);
   border-radius: 5px;
-  padding: 20px;
-  font-size: 150%;
-}
-
-
-/*
-#maincontent {
-  font-family: 'Inknut Antiqua';
+  padding: 50px;
   text-align: center;
-  background-color:#ffffff;
-  margin: 7% 20% 7% 20%; 
-  color: #777777;
-  padding: 0 15px 15px 15px;
-  border-style: solid;
-  border-width: 1px;
-  border-color:#dddddd;
-  top: 100px;
-  line-height: 25px;
+
 }
 
 body {
-  background-image: url("paintybckgd.jpg");
+  background-image: url("yoshikawasmall.jpg");
   background-size: 100%;
-}*/
+  font-family: 'Inknut Antiqua';
 
-body {
-  background-color:rgb(255, 253, 233)
 }
 
+/* --------------------------------------------------- */
+/* ------- done with stuff that fits all pages ------- */
+/* --------------------------------------------------- */
 
 
 
 
 
-
-/*done with stuff that fits all pages*/
 
 /*stuff that is only on the contact form page*/
 form {
@@ -139,10 +117,7 @@ footer {
   color: #18494d;
   bottom: 0;
   left: 0;
-  background: rgb(255, 253, 233);
-/*  border-top-style: solid;
-  border-color: #256d74;
-  border-width: 2px 0px 0px 0px; */
+  background:transparent;
   position: fixed;
   width: 100%;
   text-align: center;
