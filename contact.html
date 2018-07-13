@@ -6,7 +6,7 @@
 
     <title>Portfolio</title>
     <link rel="icon" type="image/png" href="assets/images/youdidverywell.png" />
-    <link rel="stylesheet" type="text/css" href="reset.css">
+    <!-- <link rel="stylesheet" type="text/css" href="reset.css"/> -->
     <!-- Bootstrap rel links below: all three of them-->
         <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -15,23 +15,24 @@
         <!-- Latest compiled JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <!-- End Boostrap rel links -->
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css"
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Inknut Antiqua'>
   </head>
 
-  <body>
+  <body id="contactpagebody">
 
     <!-- Below is just the Navbar -->
-    <nav class="navbar navbar-default navbar-fixed-top" style="background-color: #fff">
+    <nav class="navbar navbar-default navbar-fixed-top" id="thisisnavbar" >
         <div class="container-fluid">
           <div class="navbar-header">
-            <a class="navbar-brand" href="index.html" style="background-color:#4aaaa5; color:#fff; margin: 0 0 0 100px">Lara Ek</a>
+            <a class="navbar-brand" href="index.html" style="color:#18494d)">Lara Ek</a>
           </div>
-          <ul class="nav navbar-nav" style="float: right; margin: 0 100px 0 0">
-            <li class="active"><a href="index.html">About Me</a></li>
-            <li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Explore
+          <ul class="nav navbar-nav" style="float: right" >
+            <li class="dropdown" >
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#" style="color:#18494d">Explore
               <span class="caret"></span></a>
               <ul class="dropdown-menu">
+                <li><a href="index.html">Home</a></li>
                 <li><a href="portfolio.html">Portfolio</a></li>
                 <li><a href="writing.html">Writing</a></li>
                 <li><a href="contact.html">Contact</a></li>
@@ -44,14 +45,14 @@
 
     <!-- Below is all the maincontent stuff -->
     <!-- Note that the maincontent is divided into About Me - taking up 8 of 12 columns - and Contact Places - taking up 4 of 12 columns -->
-    <div class="container" id="maincontent">
+    <div class="container">
         <div class="row">
-        <div class="col-md-8">
-            <div class="page-header" style="color:#4aaaa5">
-              <h1>Contact Me</h1>
-              <p>Note that this page will be updated as I learn more.  As yet (5.16.2018), these forms are placeholders only, meaning that you can type as much as you want into them but no information will reach me.</p>
+
+          <div class="col-md-4" id="contactpagebckgd">
+            <div class="page-header">
               <br/>
-              <hr/>
+              <h1 id="contacth1">Contact Me</h1>
+              <p id="contactp">Note that this page will be updated with Firebase within the month of July.  As yet (7.13.2018), these forms are placeholders only, meaning that you can type as much as you want into them but no information will reach me.  Once updated, they will become functional, and I will update this notice accordingly.</p>
             </div>
             <div class="row">
                 <div class="col-md-12">
@@ -59,8 +60,10 @@
                     Name:<br/>
                     <input class="short" type="text" name="name" />
                     <br/>
+                    <br/>
                     Email:<br/>
                     <input class="short" type="text" name="email" />
+                    <br/>
                     <br/>
                     Message:<br/>
                     <input id="makeitbig" type="text" name="message" />
@@ -71,38 +74,21 @@
                 </div>
             </div>
         </div>
-        <!--Contact Card takes up 4 of 12 columns-->
-        <div class="col-md-4">
-            <div class="card">
-            <div class="card-body">
-                <h3 class="card-title" style="margin: 20px 0 0 0; color:#4aaaa5" >You can find me online: </h3>
-                <h6 class="card-subtitle mb-2 text-muted" style="background-color:#4aaaa5; font-size: 16px; color: #fff; padding: 2px" >Professionally:</h6>
-                <ul>
-                    <li><a href="https://github.com/laraek">Github</a></li> 
-                    <li><a href="https://www.linkedin.com/in/lara-ek/">LinkedIn</a></li> 
-                    <li><a href="https://angel.co/lara-ek">AngelList</a></li> 
-                </p>
-                </ul>
-                <h6 class="card-subtitle mb-2 text-muted" style="background-color:#4aaaa5; font-size: 16px; color: #fff; padding: 2px" >As a Writer:</h6>
-                <p class="card-text" style="margin:15px">
-                    <ul>
-                    <li><a href="https://www.amazon.com/Lara-Ek/e/B01N4F2TQD">Amazon</a></li> 
-                    <li><a href="https://www.goodreads.com/author/show/5441095.Lara_Ek">Goodreads</a></li> </p>
-                    </ul>
-                    <h3 class="card-title" style="margin: 20px 0 0 0; color:#4aaaa5" >Contact Me: </h3>
-                    <p>&nbsp;&nbsp;&nbsp;&nbsp;Interested in contacting me?</p> 
-                    <button style="float: left; margin: 0 0 0 10px"><a href="contact.html"> Drop me a line</a>!</button>
-                </div>
-            </div>
-        </div>
+
+        <div class="col-md-4">&nbsp;</div>
+        <div class="col-md-4">&nbsp;</div>
+
         </div>
     </div>
     <!-- Here ends maincontent stuff -->
+
 
 <footer>
   Copyright © Lara Ek 
 </footer>
 
+
+<script src="portfolioscript.js" ></script>
 
   </body>
 
