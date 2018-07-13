@@ -2,18 +2,38 @@ $(document).ready(function() {
     console.log("script has begun");
 
     var wordguess = {
-        assigpic: 'assets/images/portpic/trainportpic.jpg';
-        assigname: "abc";
-        assigdescrip: "abcd";
-        assiglink: "abcde";
+        assigpic: 'assets/images/portpic/trainportpic.jpg',
+        assigname: "abc",
+        assigdescrip: "abcd",
+        assiglink: "abcde",
     };
 
-    var pokemonrpg
+    var pokemonrpg = {
+        assigpic: 'assets/images/portpic/trainportpic.jpg',
+        assigname: "abc",
+        assigdescrip: "abcd",
+        assiglink: "abcde",
+    };
 
-    var tolkientrivia
+    var tolkientrivia = {
+        assigpic: 'assets/images/portpic/trainportpic.jpg',
+        assigname: "abc",
+        assigdescrip: "abcd",
+        assiglink: "abcde",
+    };
 
-    var cloudyapi
+    var cloudyapi = {
+        assigpic: 'assets/images/portpic/trainportpic.jpg',
+        assigname: "abc",
+        assigdescrip: "abcd",
+        assiglink: "abcde",
+    };
 
-    var trainscheduler
+    var trainscheduler = {
+        assigpic: 'assets/images/portpic/trainportpic.jpg',
+        assigname: "abc",
+        assigdescrip: "abcd",
+        assiglink: "abcde",
+    };
 
 });

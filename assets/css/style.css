@@ -118,7 +118,41 @@ A:hover {
 /* ------- done with stuff that fits portfolio page ------- */
 /* -------------------------------------------------------- */
 
-/*stuff that is only on the contact form page*/
+
+/* ------------------------------------------------- */
+/* ------- stuff that fits professional page ------- */
+/* ------------------------------------------------- */
+
+/* ----------------------------------------------------------- */
+/* ------- done with stuff that fits professional page ------- */
+/* ----------------------------------------------------------- */
+
+
+/* -------------------------------------------- */
+/* ------- stuff that fits writing page ------- */
+/* -------------------------------------------- */
+
+#writingpagebody {
+  background-image: url("hodakayamasmallfade2.jpg");
+  background-size: 100%;
+  font-family: 'Inknut Antiqua';
+}
+
+/* ------------------------------------------------------ */
+/* ------- done with stuff that fits writing page ------- */
+/* ------------------------------------------------------ */
+
+
+/* -------------------------------------------- */
+/* ------- stuff that fits contact page ------- */
+/* -------------------------------------------- */
+
+#contactpagebody {
+  background-image: url("yoshidawisteriasmallfade.jpg");
+  background-size: 100%;
+  font-family: 'Inknut Antiqua';
+}
+
 form {
   height: 360px;
   margin: 10px;
@@ -152,7 +186,10 @@ form {
   display: inline-block;
   font-size: 16px;
 }
-/*done with contact form page stuff*/
+
+/* ------------------------------------------------------ */
+/* ------- done with stuff that fits contact page ------- */
+/* ------------------------------------------------------ */
 
 
 
