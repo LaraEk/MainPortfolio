@@ -212,6 +212,24 @@ form {
 /* ------------------------------------------------------ */
 
 
+/* -------------------------------------------- */
+/* ------- stuff that fits credits page ------- */
+/* -------------------------------------------- */
+
+#creditspagebody {
+  background-image: url("sunsetichinokurahasuismall.jpg");
+  background-size: 100%;
+  font-family: 'Inknut Antiqua';
+}
+
+#creditspagebckgd{
+  background:rgb(255, 255, 255, .7)
+}
+
+/* ------------------------------------------------------ */
+/* ------- done with stuff that fits credits page ------- */
+/* ------------------------------------------------------ */
+
 
 /*this is for just the footer*/
 footer {
