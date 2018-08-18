@@ -42,11 +42,23 @@ var portfolioitems = [
 
 });
 
-$("#portfoliothings").on("click", ".portpic", function() {
-    $("#portpicholder").attr("src", portfolioitems.assigpic);
-    $("#portnameholder").text(portfolioitems.assigname);
-    $("#portdescripholder").text(portfolioitems.assigdescrip);
+$("#portfoliothings .portpic").on("click", function() {
+//        clear it first 
+        $("#portpicholder").append(this);
+
+        for (i = 0; i < portfolioitems.length; i++) { 
+            console.log(i);
+        }
+        // var assignment = 
+        // for (i = 0; i < portfolioitems.length; i++) { 
+
+
+
+
+    //     $("#portpicholder").attr("src", portfolioitems.assigpic);
+    // $("#portnameholder").text(portfolioitems.assigname);
+    // $("#portdescripholder").text(portfolioitems.assigdescrip);
     // $("#portnameholder").text(portfolioitems.assigname);
     // $("#portnameholder").text(portfolioitems.assigname);
 
-  };
+  });
