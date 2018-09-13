@@ -154,7 +154,8 @@ A:hover {
 #aboutmecontainer {
   margin-top: 10%;
   width: 70%;
-  background:rgb(255, 255, 255, .5)
+  background:rgb(255, 255, 255, .5);
+  font-size: 16px;
 }
 
 /* ------------------------------------------------------- */
@@ -198,12 +199,13 @@ A:hover {
 /* -------------------------------------------- */
 
 #writingpagebody {
-  background-image: url("hodakayamasmallfade2.jpg");
+  background-image: url("hodakayamasmallfade.jpg");
   background-size: 100%;
   font-family: 'Inknut Antiqua';
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+
 
 /* ------------------------------------------------------ */
 /* ------- done with stuff that fits writing page ------- */
