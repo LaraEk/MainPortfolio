@@ -139,6 +139,28 @@ A:hover {
 /* -------------------------------------------------------- */
 
 
+/* --------------------------------------------- */
+/* ------- stuff that fits about me page ------- */
+/* --------------------------------------------- */
+
+#aboutpagebody {
+  background-image: url("itoshinsui8views.jpg");
+  background-size: 100%;
+  font-family: 'Inknut Antiqua';
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#aboutmecontainer {
+  margin-top: 10%;
+  width: 70%;
+  background:rgb(255, 255, 255, .5)
+}
+
+/* ------------------------------------------------------- */
+/* ------- done with stuff that fits about me page ------- */
+/* ------------------------------------------------------- */
+
 /* ------------------------------------------------- */
 /* ------- stuff that fits professional page ------- */
 /* ------------------------------------------------- */
