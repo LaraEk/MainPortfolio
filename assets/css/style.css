@@ -101,8 +101,8 @@ A:hover {
   font-size: 200%;  
 }
 
-#portfoliopagecontainer {
-  margin-top: 5% ;
+#portitems {
+  margin-top: 5%;
 }
 
 .portfoliobckgd {
@@ -119,6 +119,20 @@ A:hover {
   float: left;
 }
 
+#proficolumn{
+  background:rgb(255, 255, 255, .6);
+  width: 400px;
+  margin-top: -40px;
+  padding-top: 60px;
+  border-radius: 20px;
+  position: fixed;
+}
+
+#profisites {
+  padding: 20px;
+  font-size:40px;
+  text-align: center;
+}
 
 /* -------------------------------------------------------- */
 /* ------- done with stuff that fits portfolio page ------- */
@@ -129,7 +143,7 @@ A:hover {
 /* ------- stuff that fits professional page ------- */
 /* ------------------------------------------------- */
 
-#professionalpagebody {
+/* #professionalpagebody {
   background-image: url("nikkosacredbridgehasuismall.jpg");
   background-size: 100%;
   font-family: 'Inknut Antiqua';
@@ -139,8 +153,18 @@ A:hover {
 }
 
 #professionalpagebckgd{
-  background:rgb(255, 255, 255, .5)
+  background:rgb(255, 255, 255, .6)
 }
+
+#profih1 {
+  color: #634731;
+  font-family: 'Inknut Antiqua';
+}
+
+#profisites {
+  padding: 20px;
+  /* color:rgb(211, 7, 7) */
+} */
 
 /* ----------------------------------------------------------- */
 /* ------- done with stuff that fits professional page ------- */
@@ -203,7 +227,6 @@ form {
   height: 80px;
   width: 80%;
 }
-
 
 #prettybluebutton {
   background-color: rgb(126, 106, 83);
