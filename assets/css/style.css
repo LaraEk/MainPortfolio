@@ -93,14 +93,20 @@ A:hover {
   background-image: url("asamtensightssmall.jpg");
   background-size: 100%;
   font-family: 'Inknut Antiqua';
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#portheading {
+  font-size: 200%;  
 }
 
 #portfoliopagecontainer {
-  margin: 15% 10% 5% 10%;
+  margin-top: 5% ;
 }
 
-#portfoliobckgd {
-  background:rgb(255, 255, 255, .7)
+.portfoliobckgd {
+  background:rgb(255, 255, 255, .85)
 }
 
 .portpic {
@@ -128,6 +134,8 @@ A:hover {
   background-size: 100%;
   font-family: 'Inknut Antiqua';
   color: #634731;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 #professionalpagebckgd{
@@ -147,6 +155,8 @@ A:hover {
   background-image: url("hodakayamasmallfade2.jpg");
   background-size: 100%;
   font-family: 'Inknut Antiqua';
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 /* ------------------------------------------------------ */
@@ -220,6 +230,8 @@ form {
   background-image: url("sunsetichinokurahasuismall.jpg");
   background-size: 100%;
   font-family: 'Inknut Antiqua';
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 #creditspagebckgd{
