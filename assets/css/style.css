@@ -198,14 +198,12 @@ A:hover {
 /* ------- stuff that fits writing page ------- */
 /* -------------------------------------------- */
 
-#writingpagebody {
-  background-image: url("hodakayamasmallfade.jpg");
-  background-size: 100%;
-  font-family: 'Inknut Antiqua';
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
+/* */
 
+#writeheading {
+  font-size: 200%;  
+  margin-top: 15%;
+}
 
 /* ------------------------------------------------------ */
 /* ------- done with stuff that fits writing page ------- */
